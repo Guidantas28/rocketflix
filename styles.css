@@ -4,3 +4,101 @@
     --bg-button: #e9e6e3;
     --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
   }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body{
+    background: var(--background);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0 10px 0 10px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px auto 0;
+    width: 100%;
+  }
+
+  .logo{
+    width: 86px;
+    height: 46px;
+  }
+
+  h1{
+    font-weight: 700;
+    color: var(--title);
+    margin-top: 11px
+  }
+
+  .search-movies{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 181px;
+    height: 46px;
+    margin-top: 29px;
+    background: var(--bg-button);
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .find-icon{
+    width: 33px;
+    height: 24px;
+  }
+  
+  .description-find{
+    width: 100%;
+    margin-top:25px;
+    max-width: 380px;
+    text-align: center;
+    font-size: 14px; 
+    line-height: 21px;
+    color: var(--subtitle);
+  }
+
+  #movie-content{
+    display: flex;
+    max-width: 628px;
+    margin: 0 auto;
+    margin-top:42px;
+  }
+
+  #movie-content img{
+    width: 171px;
+    height: 243px;
+    margin-top: 15px;
+  }
+
+.description-movie{
+  margin-left: 34px;
+}
+
+.description-movie .movie-title{
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 24px;
+  color: var(--subtitle)
+}
+
+.description-movie .movie-description{
+  font-size:16px;
+  line-height: 24px;
+  color: var(--subtitle)
+}
+
+
+
